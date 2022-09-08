@@ -28,7 +28,8 @@ where $\mathbf{D} = \text{diag}(d_1,d_2,\dots,d_n)$ is a diagonal matrix with po
 
 ## Example
 A numerical example with a cantilever beam subject to a white noise excitation is considered. It is assumed that five input variables are random, $\mathbf{x} =(E,\rho,L,w,t)$, and can be described by Normal distributions, $\mathbf{b} = (\mu_m,\: \sigma_m ), \: m=1,2,\dots,5$.
-<img src="doc/beam.png" width="500">
+
+<img src = "doc/beam.png" width = "500">
 
 ## The code
 To implement the numerical case studies, you need to download the sensitivity code of [TEDS](/../../../../longitude-jyang/TEDS-ToolboxEngineeringDesignSensitivity) from a different repository. The main code to reproduce the paper results is the [cal_cb_symplectic.m](/code/cal_cb_symplectic.m) which calls TEDS for forming the FIM. 
